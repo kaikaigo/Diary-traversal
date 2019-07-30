@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>diary checker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="icon" href="images/favicon.png" />
+  </head>
+
+  <body>
+    <div id="login">
+      <form id="submit">
+        <div class="form-group">
+          <label for="userName">Username</label>
+          <input type="userName" class="form-control" id="userName"  placeholder="Enter username">
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <button id="show-author" class="btn btn-primary">Authors</button>
+      <div id="login-info" style="display: none; "class="alert alert-danger" role="alert">
+        login failed!
+      </div>
+    </div>
+
+    <div id="author" style="display: none;">
+      <div>
+        <img src="./images/cat.jpeg"  class="img-thumbnail">
+        <p>Yangkai ZHang, who is senior student with CSE major </p>
+      </div>
+      <div>
+        <img src="./images/dog.jpg"  class="img-thumbnail">
+        <p> Penny Zhao, who is senior student with cse major</p>
+      </div>
+      <button id="back-to-login" class="btn btn-primary">back to login</button>
+    </div>
+
+
+    <div id="buttons">
+    </div>
+    <div id="tables">
+    </div>
+
+
+    <script
+       src="https://code.jquery.com/jquery-3.4.1.js"
+       integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+       crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
